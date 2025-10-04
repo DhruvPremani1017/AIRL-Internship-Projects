@@ -445,6 +445,10 @@ The segmentation pipeline consists of four main components working in sequence:
    - Post-processes masks using morphological operations
    - Saves results with comprehensive visualizations
 <img width="806" height="201" alt="Screenshot 2025-10-04 at 7 58 36 PM" src="https://github.com/user-attachments/assets/3be979ff-01b0-4e0e-8da1-65b63316811b" />
+
+Images taken from original paper of the work.
+
+
 ## 3. Workflow
 
 ```

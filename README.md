@@ -491,6 +491,13 @@ The pipeline generates the following outputs:
   - Final segmentation mask
   - Overlay of mask on image
   - Top 3 mask candidates with scores
+<div align="center">
+<img width="2235" height="629" alt="debugged_result" src="https://github.com/user-attachments/assets/4c157165-4a9c-4ad6-8459-e7afee284dcd" />
+
+<img width="2235" height="568" alt="catsnow_segmented_result" src="https://github.com/user-attachments/assets/99f65591-a575-42f7-bf71-d23de9cf8265" />
+
+  <p><em><strong>Figure 6:</strong> Here are the output of the segmentation.</em></p>
+</div>
 
 ## 6. Installation & Setup
 
@@ -592,8 +599,6 @@ This notebook is provided for research and educational purposes. Please refer to
 - CLIP models: Various (check OpenCLIP documentation)
 - GroundingDINO: Apache 2.0
 
-
-https://github.com/user-attachments/assets/e0e596f4-bd77-4f9b-8749-781b8bda006d
 
 
 ---

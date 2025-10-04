@@ -1,6 +1,4 @@
-# AIRL Internship Projects — Deep Learning & Computer Vision
-
-This repository contains two advanced computer vision projects demonstrating state-of-the-art deep learning techniques for image classification and segmentation tasks.
+# AIRL Internship Projects 
 
 ## Table of Contents
 

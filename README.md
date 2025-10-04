@@ -171,7 +171,8 @@ The inference cell automatically:
 <div align="center">
   <img src="Q1_version2/per_class_metrics.png" alt="Per-Class Performance" width="800"/>
   <p><em><strong>Figure 3:</strong> Per-class precision, recall, and F1-score on CIFAR-10 test set. All classes achieve >96% performance, with Cat and Dog being the most challenging pairs.</em></p>
-</div>
+</div><img width="966" height="990" alt="q1 1" src="https://github.com/user-attachments/assets/dceea0e0-db0e-4a1d-988a-82c3c4a5dd35" />
+
 
 ### Confusion Matrix
 

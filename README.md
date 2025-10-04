@@ -46,8 +46,10 @@ This implementation uses the Vision Transformer (ViT) architecture [1], which ap
 
 ### Multi-Head Self-Attention Mechanism
 
+
+
 <div align="center">
-  <img src="Q1_version2/attention_mechanism.png" alt="Attention Mechanism" width="700"/>
+  <img width="587" height="314" alt="Screenshot 2025-10-04 at 6 35 54 PM" src="https://github.com/user-attachments/assets/44df1e8e-244f-423a-a513-608ea8d78be2" />
   <p><em><strong>Figure 2:</strong> (Left) Scaled Dot-Product Attention computes attention weights using Query (Q), Key (K), and Value (V) matrices. (Right) Multi-Head Attention runs multiple attention operations in parallel, concatenates outputs, and projects to final dimension [1].</em></p>
 </div>
 

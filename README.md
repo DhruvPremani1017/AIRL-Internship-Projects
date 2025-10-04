@@ -498,8 +498,14 @@ The pipeline generates the following outputs:
 
   <p><em><strong>Figure 6:</strong> Here are the output of the segmentation.</em></p>
 </div>
+<div align="center">
+<img width="1990" height="855" alt="dogvideo" src="https://github.com/user-attachments/assets/d11034c7-a323-4056-b772-4bb523b120b5" />
+
 
 https://github.com/user-attachments/assets/f4c016ca-532d-44e0-9c9c-e3af8c50d7dc
+
+  <p><em><strong>Figure 7:</strong> Here are the output of the segmentation in a video.</em></p>
+</div>
 
 ## 6. Installation & Setup
 

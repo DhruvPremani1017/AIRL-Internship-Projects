@@ -423,9 +423,12 @@ The segmentation pipeline consists of four main components working in sequence:
 
 ### 2.2 Hybrid Object Detection (`HybridDetector`)
    - **Primary method**: GroundingDINO for high-accuracy text-to-region detection
+     <img width="779" height="555" alt="Screenshot 2025-10-04 at 7 55 35 PM" src="https://github.com/user-attachments/assets/adf9f330-8533-4dea-8dca-9c1b1683fe69" />
+
    - **Fallback method**: CLIP-based sliding window detection
    - Automatically switches between methods based on availability and success
    - Generates candidate bounding boxes for target objects
+<img width="2162" height="762" alt="CLIP" src="https://github.com/user-attachments/assets/e1aeb3c6-3f42-47b3-baa3-bd7ce3b060cc" />
 
 ### 2.3 Comprehensive Mask Evaluator (`ComprehensiveMaskEvaluator`)
    - Multi-criteria mask quality assessment:
@@ -435,12 +438,13 @@ The segmentation pipeline consists of four main components working in sequence:
      - **Smoothness** (10% weight): Boundary quality via morphological operations
    - Selects optimal mask from multiple SAM 2 candidates
 
+
 ### 2.4 SAM 2 Segmentation (`TextDrivenSegmentationPipeline`)
    - Uses detected bounding boxes as prompts for SAM 2
    - Generates multiple mask candidates per detection
    - Post-processes masks using morphological operations
    - Saves results with comprehensive visualizations
-
+<img width="806" height="201" alt="Screenshot 2025-10-04 at 7 58 36 PM" src="https://github.com/user-attachments/assets/3be979ff-01b0-4e0e-8da1-65b63316811b" />
 ## 3. Workflow
 
 ```
@@ -594,31 +598,4 @@ This notebook is provided for research and educational purposes. Please refer to
 
 ---
 
-# Project Files Structure
-
-```
-AIRL internship/
-├── Q1_version2/                    # Project 1: Vision Transformer on CIFAR-10
-│   ├── Copy of Q1.ipynb            # Main training notebook
-│   ├── best_model.pth              # Best checkpoint (epoch 194)
-│   ├── last_checkpoint.pth         # Final epoch checkpoint
-│   ├── metrics.csv                 # Training/validation metrics
-│   ├── confusion_matrix.csv        # Confusion matrix data
-│   ├── classification_report*.txt  # Per-class metrics
-│   ├── test_*.npy                  # Test predictions/logits/targets
-│   └── requirements.txt            # Python dependencies
-│
-├── Q2_CLEAN.ipynb                  # Project 2: Text-driven segmentation (image)
-├── Q2_CLEAN_imgandvideo.ipynb      # Project 2: Extended version (video support)
-├── OP1.png                         # CIFAR-10 sample images
-└── OP2.png                         # Additional visualizations
-```
-
----
-
-# Contact & Support
-
-For questions, issues, or contributions, please refer to the individual project notebooks or contact the repository maintainer.
-
-**Last Updated:** October 4, 2025
 

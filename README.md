@@ -19,8 +19,9 @@ This project implements a Vision Transformer (ViT) on CIFAR-10 to achieve maximu
 
 CIFAR-10 consists of 60,000 32×32 color images across 10 classes (airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck). Sample images from the dataset:
 
+
 <div align="center">
-  <img src="OP1.png" alt="CIFAR-10 Sample Images" width="600"/>
+<img width="966" height="990" alt="q1 1" src="https://github.com/user-attachments/assets/f9640a4a-db2d-4146-b138-996e84aff54c" />
   <p><em>Sample images from CIFAR-10 dataset showing all 10 classes</em></p>
 </div>
 
@@ -171,7 +172,7 @@ The inference cell automatically:
 <div align="center">
   <img src="Q1_version2/per_class_metrics.png" alt="Per-Class Performance" width="800"/>
   <p><em><strong>Figure 3:</strong> Per-class precision, recall, and F1-score on CIFAR-10 test set. All classes achieve >96% performance, with Cat and Dog being the most challenging pairs.</em></p>
-</div><img width="966" height="990" alt="q1 1" src="https://github.com/user-attachments/assets/dceea0e0-db0e-4a1d-988a-82c3c4a5dd35" />
+</div>
 
 
 ### Confusion Matrix

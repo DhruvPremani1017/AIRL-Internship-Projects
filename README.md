@@ -499,7 +499,8 @@ The pipeline generates the following outputs:
   <p><em><strong>Figure 6:</strong> Here are the output of the segmentation.</em></p>
 </div>
 <div align="center">
-<img width="1990" height="855" alt="dogvideo" src="https://github.com/user-attachments/assets/d11034c7-a323-4056-b772-4bb523b120b5" />
+
+<img width="1283" height="476" alt="Screenshot 2025-10-04 at 10 38 56 PM" src="https://github.com/user-attachments/assets/4f710feb-1b05-41a2-90a4-a38a0e0bf6ca" />
 
 
 https://github.com/user-attachments/assets/f4c016ca-532d-44e0-9c9c-e3af8c50d7dc

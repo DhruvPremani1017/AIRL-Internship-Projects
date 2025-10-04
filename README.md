@@ -499,6 +499,8 @@ The pipeline generates the following outputs:
   <p><em><strong>Figure 6:</strong> Here are the output of the segmentation.</em></p>
 </div>
 
+https://github.com/user-attachments/assets/f4c016ca-532d-44e0-9c9c-e3af8c50d7dc
+
 ## 6. Installation & Setup
 
 The notebook is designed for Google Colab and includes automatic installation of:

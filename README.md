@@ -29,8 +29,10 @@ CIFAR-10 consists of 60,000 32×32 color images across 10 classes (airplane, aut
 
 This implementation uses the Vision Transformer (ViT) architecture [1], which applies the Transformer encoder directly to sequences of image patches.
 
+
 <div align="center">
-  <img src="Q1_version2/vit_architecture.png" alt="Vision Transformer Architecture" width="700"/>
+  <img width="348" height="196" alt="Screenshot 2025-10-04 at 6 31 39 PM" src="https://github.com/user-attachments/assets/dc1237a8-41ca-49d6-acc7-0ce127389c39" />
+  
   <p><em><strong>Figure 1:</strong> Vision Transformer (ViT) architecture [1]. Images are split into fixed-size patches (16×16), linearly embedded, and processed by a standard Transformer encoder. A learnable [CLS] token is prepended for classification.</em></p>
 </div>
 

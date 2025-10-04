@@ -592,6 +592,10 @@ This notebook is provided for research and educational purposes. Please refer to
 - CLIP models: Various (check OpenCLIP documentation)
 - GroundingDINO: Apache 2.0
 
+
+https://github.com/user-attachments/assets/e0e596f4-bd77-4f9b-8749-781b8bda006d
+
+
 ---
 
 **Note**: This is a research prototype. For production use, consider addressing the limitations listed above and validating performance on your specific use case.

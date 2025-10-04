@@ -171,18 +171,11 @@ The inference cell automatically:
 | Ship       | 0.991     | 0.997  | 0.994    |
 | Truck      | 0.992     | 0.984  | 0.988    |
 
-### Visualization: Per-Class Metrics
-
-<div align="center">
-  <img src="Q1_version2/per_class_metrics.png" alt="Per-Class Performance" width="800"/>
-  <p><em><strong>Figure 3:</strong> Per-class precision, recall, and F1-score on CIFAR-10 test set. All classes achieve >96% performance, with Cat and Dog being the most challenging pairs.</em></p>
-</div>
-
-
 ### Confusion Matrix
 
-<div align="center">
-  <img src="Q1_version2/confusion_matrix.png" alt="Confusion Matrix" width="700"/>
+<div align="center"><img width="326" height="253" alt="Screenshot 2025-10-04 at 7 48 47 PM" src="https://github.com/user-attachments/assets/99b99c81-b5d1-4b9e-bedf-1b18f4d77d06" />
+
+
   <p><em><strong>Figure 4:</strong> Confusion matrix showing prediction distribution across all 10 classes. Diagonal dominance indicates strong classification performance. Most confusion occurs between Cat↔Dog and Truck↔Automobile pairs.</em></p>
 </div>
 

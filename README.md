@@ -188,13 +188,6 @@ The inference cell automatically:
   - Automobile → Truck: 6 misclassifications
 - These confusions are semantically meaningful (similar visual features)
 
-### Training Progress
-
-<div align="center">
-  <img src="Q1_version2/training_curves.png" alt="Training Curves" width="900"/>
-  <p><em><strong>Figure 5:</strong> Training dynamics over 300 epochs showing (a) loss convergence, (b) accuracy improvement, (c) validation metrics stabilization, and (d) learning rate schedule with warmup and cosine annealing.</em></p>
-</div>
-
 **Training Observations:**
 - Validation accuracy plateaus around epoch 150-200 (best at epoch 194: 99.06%)
 - Learning rate warmup (first 10 epochs) prevents early instability
